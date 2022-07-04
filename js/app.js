@@ -30,8 +30,7 @@ function crearCards(){
     columna.className = "col-md-3 col-sm-12 mt-5"
     columna.id = `columna-${producto.id}`
     columna.innerHTML = 
-                  `<h1>Sus productos:</h1>
-                  <div class="card">
+                  `<div class="card">
                     <img src=${producto.foto} style="width: 16rem; height: 16rem;" class="card-img-top" alt="almohadones varios">
                     <div class="card-body">
                       <h5 class="card-title">${producto.nombre}</h5>
