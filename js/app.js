@@ -28,7 +28,7 @@ function compra(){
         switch(opciones){
             case 1:
                 card.innerHTML = 
-                `<img src="../img/almohadones2.jpeg" style="width: 18rem; height: 18rem;" class="card-img-top" alt="almohadones varios">
+                `<img src="./img/almohadones2.jpeg" style="width: 18rem; height: 18rem;" class="card-img-top" alt="almohadones varios">
                 <div class="card-body">
                   <h5 class="card-title">${almohadonesVarios.nombre}</h5>
                   <p class="card-text">$${almohadonesVarios.precio}</p>
@@ -37,7 +37,7 @@ function compra(){
                 break
             case 2:
                 card.innerHTML = 
-                `<img src="../img/mesaConBancos.jpeg" style="width: 18rem; height: 18rem; class="card-img-top" alt="mesa y bancos">
+                `<img src="./img/mesaConBancos.jpeg" style="width: 18rem; height: 18rem; class="card-img-top" alt="mesa y bancos">
                 <div class="card-body">
                   <h5 class="card-title">${setMesaYBancos.nombre}</h5>
                   <p class="card-text">$${setMesaYBancos.precio}</p>
@@ -53,7 +53,7 @@ function compra(){
         switch(opciones){
             case 1:
                 card.innerHTML = 
-                `<img src="../img/cuadro2.jpeg" style="width: 18rem; height: 18rem; class="card-img-top" alt="cuadro verde">
+                `<img src="./img/cuadro2.jpeg" style="width: 18rem; height: 18rem; class="card-img-top" alt="cuadro verde">
                 <div class="card-body">
                   <h5 class="card-title">${cuadroVerde.nombre}</h5>
                   <p class="card-text">$${cuadroVerde.precio}</p>
@@ -62,7 +62,7 @@ function compra(){
                 break
             case 2:
                 card.innerHTML = 
-                `<img src="../img/comoda.jpeg" style="width: 18rem; height: 18rem; class="card-img-top" alt="cuadro blanco">
+                `<img src="./img/comoda.jpeg" style="width: 18rem; height: 18rem; class="card-img-top" alt="cuadro blanco">
                 <div class="card-body">
                   <h5 class="card-title">${
                     cuadroBlanco.nombre}</h5>
@@ -80,7 +80,7 @@ function compra(){
         switch(opciones){
             case 1:
                 card.innerHTML = 
-                `<img src="../img/velas8.jpeg" style="width: 18rem; height: 18rem; class="card-img-top" alt="vela">
+                `<img src="./img/velas8.jpeg" style="width: 18rem; height: 18rem; class="card-img-top" alt="vela">
                 <div class="card-body">
                   <h5 class="card-title">${tallRibbedTower.nombre}</h5>
                   <p class="card-text">$${tallRibbedTower.precio}</p>
@@ -89,7 +89,7 @@ function compra(){
                 break
             case 2:
                 card.innerHTML = 
-                `<img src="../img/velas12.jpeg" style="width: 18rem; height: 18rem; class="card-img-top" alt="vela">
+                `<img src="./img/velas12.jpeg" style="width: 18rem; height: 18rem; class="card-img-top" alt="vela">
                 <div class="card-body">
                   <h5 class="card-title">${shortRibbedTower.nombre}</h5>
                   <p class="card-text">$${shortRibbedTower.precio}</p>
